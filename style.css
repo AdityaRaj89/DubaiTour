@@ -1,0 +1,410 @@
+body{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image:radial-gradient(circle at 24.1% 68.8%, rgb(8, 6, 6) 0%, rgb(0, 0, 0) 99.4%);
+}
+
+.light{
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  width:100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#d1{
+  width:100%;
+  min-height: 100vh;
+  height: 100vh;
+  position:relative;
+  display:flex;
+  padding: 0 ;
+  align-items:center;
+  justify-content: center;
+}
+
+#maintext{
+    width: 100%;
+    font-size: 90px;
+    font-family: 'Hidayatullah DEMO';
+    font-weight: bold;
+    font-style: normal;
+    text-align:center;
+   
+    background: -webkit-linear-gradient(#fffb18, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+nav{
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+  height:80px;
+  padding:20px;
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+}
+
+nav .logo{
+  width:80px;  
+}
+
+nav ul li{
+  list-style:none;
+  display:inline-block;
+  margin-right:40px;
+}
+
+a{
+  text-decoration: none;
+  color:#fff;
+  font-size:17px;
+  font-family:  'Righteous', cursive;
+}
+
+#d2{
+  margin-top: 100px;
+  position: relative;
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+  height: 100vh;
+  width:100%;
+  margin-bottom:6px;
+}
+
+.mainanim{
+  width:100%;
+  position:absolute;
+  display: inline-block;
+  right:0;
+  bottom:0;
+  left:0;
+  top:0;
+  z-index:-1;
+}
+
+
+.burjkh{
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border-radius: 10px;
+
+}
+
+.burjkhx{
+ 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  border-radius: 10px;
+}
+
+.column{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px; 
+  width: 50%; 
+  height: 100%;
+  border-radius: 10px;
+}
+
+.card {
+  top:6px;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align:left;
+  background-color: #000000;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+}
+
+.subheading{
+  font-family: 'Righteous', cursive;
+  font-weight: bold;
+  font-style: normal;
+  position: absolute; /* Add absolute positioning to the subheading */
+  top: 50%; /* Position the subheading vertically in the middle */
+  left: 20%; /* Position the subheading horizontally in the middle */
+  transform: translate(-50%, -50%); /* Center the subheading precisely */
+  color: #fff;
+  font-size: 26px;
+}
+
+.carddet{
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  position: absolute;
+  top:60%;
+  left:7.6%;
+  color: #fff;
+  font-size: 17px;
+}
+
+#d3{
+  margin-top: 6px;
+  position: relative;
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+  height: 100vh;
+  width:100%;
+  margin-bottom:6px;
+}
+
+.deserimg{
+  margin-top:6px;
+  height: 76%;
+  width:100%;
+  z-index: -1;
+  border-radius: 10px;
+  
+ 
+}
+
+.deserimg:hover{
+  transform: scale(1.05); 
+  transition: transform 0.5s ease-out; 
+}
+
+.cardx{
+  top:6px;
+  margin-top: 0px;
+  padding: 0px 10px 0px 10px;
+  position: relative;
+  border-color: black;
+  border:2px;
+  text-align:left;
+  background-color:#dcd6d6e9;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgb(255, 255, 255);
+  
+}
+
+.subheadingx{
+  top: 76%;
+  color: rgb(246, 199, 13);
+  left: 21%;
+  font-family: 'Righteous', cursive;
+  font-weight: bold;
+  font-style: normal;
+  transform: translate(-50%, -50%); /* Center the subheading precisely */
+  position: absolute;
+  font-size: 26px;
+}
+
+.carddetx{
+  font-family: 'Rubik', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  position: absolute;
+  top:82%;
+  left:7.6%;
+  color: #000000;
+  font-size: 17px;
+}
+
+.burjalar{
+  top:70%;
+}
+
+.burjalardt{
+  top:76%;
+}
+
+.bucard{
+  background-color: #dcd6d6e9;
+}
+
+.cars{
+  
+  margin: 0px;
+  background-color: #fff;
+  width:100%;
+  height: 60vh;
+  position: relative;
+  padding: 0px;
+  overflow: hidden;
+
+
+}
+
+.carvidx{
+ width: 100%;
+ height:100%;
+ padding: 10px;
+
+ object-fit: cover;
+
+}
+
+.d4{
+  margin-top: 0px;
+  padding-top: 156px;
+  width: 100%;
+  position: relative;
+  display:block;
+  margin-bottom: 0px;
+  align-items: center;
+  justify-content: center;
+  background-color:#fff;
+  height: 100vh;
+}
+
+.listre{
+  list-style:none;
+  border: 10px;
+  border-radius: 6px;
+  border-color: #000000;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70vh;
+}
+
+.hotel{
+  width: 100%;
+  height:100%;
+}
+
+.cardmaporange{
+  font-family: 'Righteous', cursive;
+  font-weight: lighter;
+  font-style: normal;
+  text-align: center;
+  background: radial-gradient(circle at 10% 20%, rgb(255, 161, 61) 0%, rgb(255, 94, 7) 90%);
+  width :23%;
+  height: 100%;
+  border-radius: 20px;
+  
+}
+
+.mapx{
+  width: 100%;
+  height: 40%;
+  
+}
+
+.subbanner{
+  padding-top: 11px;
+  margin-left: 60px;
+  color:rgba(255, 16, 16, 0.73) ;
+  font-family: 'Righteous', cursive;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 27px;
+  text-align: center;
+  margin-bottom:90px;
+}
+
+.cardmapskyblue{
+  color:white;
+  background: linear-gradient(109.5deg, rgb(76, 221, 242) 11.2%, rgb(92, 121, 255) 91.1%);
+}
+
+.airbn{
+  width:100%;
+  height:40%;
+}
+
+.butn{
+
+  height: 30px;
+  width:100px;
+  margin-top: 120px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0); 
+  border:1px solid black;
+  color:#fff;
+
+  
+}
+
+.abtn{
+  font-family: 'Rubik', sans-serif;
+}
+
+.abtnx{
+  font-family: 'Rubik', sans-serif;
+  color: black;
+}
+
+.div5{
+  padding: 0px;
+  padding-bottom: 20px;
+  margin: 0px;
+  background-color:#e4e5ef ;
+  padding-left: 100px;
+  padding-right: 100px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+
+.searchbar{
+  margin-left: 600px;
+  align-items: center;
+  padding-top: 80px;
+  width:500px;
+  height: 100px;
+  text-align: center;
+  position: absolute;
+
+}
+
+.bar{
+  width: 300px;
+  height:30px;
+  background-color: transparent;
+  border:1px solid;
+  border-color: white;
+}
+
+.sbuton{
+  padding: 0px;
+  height: 30px;
+  width:80px;
+  margin-top: 120px;
+  border-radius: 8px;
+  background-color: rgb(0, 0, 0); 
+  border:1px solid rgb(0, 0, 0);
+  color:#fff;
+}
+.formse{
+  height: 100%;
+}
+
+#suggestions {
+  position: absolute;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+#suggestions li {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+#suggestions li:hover {
+  background-color: #f0f0f0;
+}
